@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Compiled and minified CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
+
+  <title></title>
+</head>
+
+
+  <body>
+
+    <div class="navbar-fixed">
+<nav>
+    <div class="nav-wrapper indigo lighten-1">
+      <a href="/index.html" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/wwd.html">Wat we doen</a></li>
+        <li><a href="/pages/wzw.html">Ons Team</a></li>
+        <li><a href="/pages/contact.html">Contact/Inhuren</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/wwd.html">Wat we doen</a></li>
+          <li><a href="/pages/wzw.html">Ons Team</a></li>
+          <li><a href="/pages/contact.html">Contact/Inhuren</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+        <div class="conainer">
+    <div class="row">
+        <div class="col l12">
+        <h1 class="center-align">
+            Contact en Inhuren
+        </h1>
+        </div>
+    </div>
+    <div class="row" id="inhuren">
+        <div class="col l12">
+        <div class="card-panel teal">
+              <span class="white-text">
+                    <h3>Inhuren</h3>
+                    Als u van onzen diensten gebruik wilt maken kunt u <a href="#contact" class="indigo-text">contact</a> op nemen en als onderwerp inhuren:id. <br>
+                    De id kunt u vinden in de prijzen tabellen. Bijv. Behangen is id: 5 <br>
+                    Wij kijken uit naar een samen werking met u!
+                </span>
+        </div>
+        </div>
+    </div>
+    <div class="row" id="contact">
+        <div class="col l12">
+        <div class="card-panel indigo lighten-1">
+            <form action="//formspree.io/willentrek@gmail.com" method="POST">
+                <div class="row">
+                    <div class="input-field col l12">
+                        <input placeholder="Uw Naam" id="name" type="text" name="name" class="validate">
+                        <label for="name" data-error="Dit veld moet uw naam bevatten">Naam:</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col l12">
+                        <input type="text" placeholder="voorbeeld@voorbeeld.nl" class="validate" id="email_adresss" name="_replyto">
+                        <label for="email_adresss " data-error="U moet een geldig email adres invullen">Emailadres</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col l12">
+                        <input type="text" name="_subject" id="onderwerp" placeholder="Bijv: inhuren:id ">
+                        <label for="onderwerp">Onderwerp:</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col l12">
+                        <textarea name="bericht" placeholder="Uw Bericht" id="bericht" class="materialize-textarea"></textarea>
+                        <label for="bericht">Uw Bericht</label>
+                    </div>
+                </div>
+            <!-- <input type="text" name="name">
+            <input type="email" name="_replyto">
+            <input type="submit" value="Send"> -->
+            <div class="row">
+                <div class="input-field col l12">
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="hidden" name="_next" value="/pages/contact.html/#verstuurd" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col l12">
+                    <p>Alle velden moeten ingevult zijn!</p>
+                    <input type="submit" value="Versturen" class="btn input_field">
+                </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </div>
+
+</div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+<script src="/js/functions.js" charset="utf-8"></script>
+
+<footer class="page-footer indigo">
+    <div class="container">
+        <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Berdijvhe</h5>
+                <p class="grey-text text-lighten-4">Vragen neem gerust <a href="/pages/contact.html">contact</a> met ons op!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <!-- <h5 class="white-text">Links</h5> -->
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="/index.html">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="/pages/wwd.html">Wat we doen</a></li>
+                  <li><a class="grey-text text-lighten-3" href="/pages/wzw.html">Ons team</a></li>
+                  <li><a class="grey-text text-lighten-3" href="/pages/contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2015 Twan Huiskens
+            </div>
+    </div>
+</footer>
+
+
+  </body>
+
+</html>
